@@ -1,26 +1,26 @@
 *** STACK QUESTIONS ***
 
-A Stack follows the __________ principle, which means __________ In, __________ Out.
+A Stack follows the LIFO principle, which means Last In, First Out.
 
 
 1. Which operation is used to insert an element into a Stack?
 
-Answer: ______________________
+Answer: push()
 
 2. Which operation removes the top element?
 
-Answer: ______________________
+Answer: pop()
 
 3. Which operation looks at the top element without removing it?
 
-Answer: ______________________
+Answer: top()
 
 4. What is the time complexity of push()?
 
-Answer: ______________________
+Answer: o(1)
 
 5. What is the time complexity of pop()?
 
-Answer: ______________________
+Answer: o(1)
 
 

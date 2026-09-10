@@ -1,27 +1,27 @@
 *** QUEUE QUESTIONS ***
 
-A Queue follows the __________ principle, which means __________ In, __________ Out.
+A Queue follows the FIFO principle, which means First In, First Out.
 
 1. Which operation is used to insert an element into a Queue?
 
-Answer: ______________________
+Answer: enqueue()
 
 2. Which operation removes an element from the front?
 
-Answer: ______________________
+Answer: dequeue()
 
 3. Which operation views the front element without removing it?
 
-Answer: ______________________
+Answer:peek()
 
 4. Why does the Queue use both head and tail?
 
-Answer: __________________________________________________
+Answer: head points to the front element for dequeue(), while tail points to the last element for enqueue(). This allows both operations to be performed efficiently.
 
 5. What is the time complexity of enqueue()?
 
-Answer: ______________________
+Answer: O(1)
 
 6. What is the time complexity of dequeue()?
 
-Answer: ______________________
+Answer: O(1)
